@@ -1,0 +1,88 @@
+:root {
+    font-family: Montserrat;
+    --primary: #000059;
+    --secondary: #1f1f1f;
+    --gray: #4c4c4c ;
+    --orange : #f65708;
+    --mat-orange: #e1684d;
+}
+
+.section-heading {
+    color: var(--mat-orange);
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 2rem 0;
+}
+
+/* home section */
+.home, .aboutMe {
+    padding: 0 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 9rem;
+}
+
+.navbar-brand {
+    margin-right: 50px;
+}
+
+.navLinks a{
+    margin: 0 0.7rem;
+    color: white;
+}
+
+.navLinks a:hover{
+    color: var(--orange);
+}
+
+
+.tagline-one {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--gray);
+    margin-right: 1rem;
+}
+
+.tagline-two {
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 4rem;
+}
+
+.contact-btn {
+    margin: 1rem 0 10rem 0;
+    color: whitesmoke;
+    background: var(--orange);
+    width: fit-content;
+    padding: 0.3rem 0.5rem;
+}
+
+
+
+/* About Me Styles*/
+
+.aboutMe {
+    background-color: #0f0f0f;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.profile {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.profile-name {
+    color: var(--orange);
+
+}
+
