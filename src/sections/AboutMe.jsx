@@ -23,6 +23,22 @@ function AboutMe() {
           in graphic designing working with over <span>24 clients</span>. <br />
           You don't just your projected delivered but you<br/> also get an experience of a lifetime.
         </div>
+        <div>
+            Name <br />
+            Albert Ocansey
+        </div>
+        <div>
+            Contact <br />
+            +233242239275
+        </div>
+        <div>
+            Git <br />
+            aaocansey/aaocansey582
+        </div>
+        <div>
+            Email <br />
+            albertocansey582@gmail.com
+        </div>
       </div>
     </div>
   );
