@@ -6,38 +6,23 @@ function AboutMe() {
       <div className="section-heading">About Me</div>
       <div className="profile">
         <div className="profile picture">
-          <img src={profile} style={{ width: "30rem" }} />
+          <img src={profile} style={{ width: "30rem", background: 'white', marginBottom:'20px' }} />
         </div>
         <div className="profile-info">
             My name is <span className="profile-name">Albert Ahuma Ocansey</span><br/><br/>
           I am a Software Developer and Graphic Designer with <br />
           two years of experience in web and mobile app devel- <br />
-          opment. I am skilled in building interactive web an- <br />
-          d mobile applications using HTML, CSS, JavaScript, 
+          opment. I am skilled in building interactive web and <br />
+          mobile applications using HTML, CSS, JavaScript, Dart, 
           <br />
-          Dart, React JS, shopify, and Flutter.
+          React JS, shopify, and Flutter. I am adept at database <br />
+          management, API integration, 
+          and version control. 
           <br />
           <br />
-          I am adept at database management, API integration, <br />
-          and version control. I also have <span>six years</span> experience  <br />
-          in graphic designing working with over <span>24 clients</span>. <br />
-          You don't just your projected delivered but you<br/> also get an experience of a lifetime.
-        </div>
-        <div>
-            Name <br />
-            Albert Ocansey
-        </div>
-        <div>
-            Contact <br />
-            +233242239275
-        </div>
-        <div>
-            Git <br />
-            aaocansey/aaocansey582
-        </div>
-        <div>
-            Email <br />
-            albertocansey582@gmail.com
+          I also have <span>six years</span> experience in graphic designing,<br />
+          and I have with over <span>24 clients</span>. My works include fly- <br /> ers
+          brand designs, logos, brochures and web designs. 
         </div>
       </div>
     </div>
