@@ -4,6 +4,7 @@ import '../css/styles.css'
 function Home() {
     return (  
         < div className="home">
+            
             <Navbar/>
             <div className="tagline-two">
             <span className="tagline-one">

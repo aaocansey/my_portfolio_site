@@ -113,3 +113,12 @@
 .two, .five {
     margin-left: 20px!important;
 }
+
+.flyer-tiles {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile {
+    height: 150px;
+    margin: 20px;
+}
