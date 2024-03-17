@@ -1,11 +1,11 @@
+import { useState } from "react";
 import Navbar from "../components/Navbar";
 import '../css/styles.css'
-
 function Home() {
+    const [displayMenu, setDisplayMenu] = useState('none');
     return (  
         < div className="home">
-            
-            <Navbar/>
+            <Navbar displayMenu={displayMenu} setDisplayMenu={setDisplayMenu}/>
             <div className="tagline-two">
             <span className="tagline-one">
                 I'm a 

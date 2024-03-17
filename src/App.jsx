@@ -3,6 +3,7 @@ import Home from './sections/Home.jsx'
 import AboutMe from './sections/AboutMe.jsx'
 import Skills from './sections/Skills.jsx'
 import Portfolio from './sections/Porfolio.jsx'
+import Contact from './sections/Contact.jsx'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
      <AboutMe/>
      <Skills/>
      <Portfolio/>
+     <Contact/>
     </div>
   )
 }

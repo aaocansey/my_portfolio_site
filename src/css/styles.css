@@ -16,18 +16,24 @@
 }
 
 /* home section */
-.home, .aboutMe, .Skills {
+.home, .aboutMe, .Skills, .portfolio {
     padding: 0 50px;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    margin-bottom: 9rem;
+    margin-bottom: 7rem;
+    padding-top: 3rem;
 }
 
 .navbar-brand {
-    margin-right: 50px;
+    margin-right: 10rem;
+}
+
+.navLinks {
+    display: none;
+    flex-direction: column;
 }
 
 .navLinks a{
@@ -39,20 +45,38 @@
     color: var(--orange);
 }
 
+.nav-btn {
+    color: whitesmoke;
+    background: var(--orange);
+    width: fit-content;
+    padding: 0.3rem 0.5rem;
+    margin-left: 10rem;
+    display: none;
+}
+
+.nav-btn:hover,.contact-btn:hover {
+    color: var(--orange);
+    background: white;
+    cursor: grab;
+}
+
+.hidden-menu {
+    color: white;
+}
 
 .tagline-one {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
     color: var(--gray);
     margin-right: 1rem;
 }
 
 .tagline-two {
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: white;
     text-transform: uppercase;
     font-weight: 900;
-    line-height: 4rem;
+    line-height: 2.5rem;
 }
 
 .contact-btn {
@@ -87,7 +111,21 @@
 .profile-name {
     font-weight: 400;
     color: var(--orange);
+}
 
+.profile-info {
+    text-align: justify;
+}
+
+.showFullPicture {
+    position: absolute;
+    z-index: 2;
+    top: 120rem;
+}
+
+.close-btn {
+    text-align: right;
+    color: white;
 }
 
 
@@ -110,15 +148,72 @@
     color: var(--orange);
 }
 
-.two, .five {
+/* .two, .five {
     margin-left: 20px!important;
-}
+} */
 
-.flyer-tiles {
+
+.tiles {
     display: flex;
     flex-wrap: wrap;
 }
+
+.portfolio-tabs a{
+margin: 20px;
+text-decoration: none;
+color: white;
+} 
+
+.portfolio-tabs a:hover {
+    color: #f65708;
+}
 .tile {
+    overflow: hidden;
+    width: 150px;
     height: 150px;
     margin: 20px;
+}
+
+.active-tab {
+    display: block;
+}
+
+.tab {
+    display: none;
+}
+
+.all {
+    display: flex;
+}
+
+
+
+/* Contact */
+
+.contact {
+    background: var(--mat-orange);
+    margin: 20px 0 0 0;
+    padding: 50px ;
+    color: white;
+}
+
+.contact-heading {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.c-header {
+    margin-bottom: 0;
+    
+}
+
+.contact-input {
+    font-size: 0.8rem;
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.contact-input a {
+    color: black;
 }
